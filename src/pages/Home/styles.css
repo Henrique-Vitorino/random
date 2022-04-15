@@ -1,0 +1,30 @@
+.layout{
+  background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height:100vh
+}
+
+.flex-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100%;
+}
+
+
+.btn{
+  padding:10px 20px;
+  background-color: #fabd57;
+  border-radius:8px;
+  border: none;
+  font-weight:bold;
+  color:#fff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.411);
+  cursor:pointer;
+}
+
+.btn:hover{
+  background-color: #e6b259
+}

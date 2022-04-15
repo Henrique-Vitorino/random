@@ -1,0 +1,15 @@
+.flex-center{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh
+}
+
+.flex{
+  display:flex;
+}
+
+.board{
+  background-color:aqua;
+  width:50%;
+}

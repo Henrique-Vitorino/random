@@ -1,0 +1,20 @@
+.nav{
+  display:flex;
+  justify-content: center;
+  background-color:#ddd;
+  margin:0;
+  padding: 0
+}
+
+[href]{
+  margin:5px;
+  text-decoration: none;
+  color:#000;
+  font-size:16px;
+  font-weight: bold;
+  transition: all .6s ;
+}
+
+[href]:hover{
+  color:#ff2;
+}
